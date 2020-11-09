@@ -8,6 +8,7 @@ namespace insulter
     {
         static void Main(string[] args)
         {
+            // this is a list of strings
             List<string> insults = new List<string>
             {
                 "You look like what morning breath smells like.",

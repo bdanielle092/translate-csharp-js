@@ -10,7 +10,7 @@ namespace Grimoire
         {
             Console.WriteLine("Do you believe in magic?");
             Console.WriteLine("------------------------");
-
+//list of good and bad spells
             List<Spell> allSpells = GetAllSpells();
             SpellBook goodBook = MakeGoodSpellBook(allSpells);
             SpellBook evilBook = MakeEvilSpellBook(allSpells);
@@ -19,7 +19,7 @@ namespace Grimoire
             Console.WriteLine();
             DisplaySpellBook(evilBook);
         }
-
+// looping through the spells
         static void DisplaySpellBook(SpellBook book)
         {
             Console.WriteLine(book.Title);
@@ -46,7 +46,7 @@ namespace Grimoire
 
             return goodBook;
         }
-
+//list of spells
         static List<Spell> GetAllSpells()
         {
             List<Spell> allSpells = new List<Spell>() {
