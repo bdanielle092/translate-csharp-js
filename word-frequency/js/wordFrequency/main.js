@@ -4,6 +4,7 @@ function main() {
   const freqCounts = {};
 
   for (const word of words) {
+    console.log("test", word)
     if (word.trim() === "") {
       continue;
     }

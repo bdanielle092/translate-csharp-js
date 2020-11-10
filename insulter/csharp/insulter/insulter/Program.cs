@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace dinner_party
+namespace insulter
 {
     class Program
     {
         static void Main(string[] args)
         {
-           
+            Console.WriteLine("Hello World!");
         }
     }
 }

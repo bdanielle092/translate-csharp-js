@@ -9,8 +9,10 @@ namespace fizzbuzz
     {
         static void Main(string[] args)
         {
+            // for loop
             for (int i = 1; i <= 100; i++)
             {
+                //if else statements 
                 if (i % 15 == 0)
                 {
                     Console.WriteLine("fizzbuzz");
